@@ -17,6 +17,10 @@ h8{text-align: center; font-size: 1.2rem; color: white; margin-top: 8pc; width: 
     color: aliceblue;
     font-size: x-large;
 }
+.r{
+  
+    border: 1px solid rgba(255, 255, 255, 0.691);
+}
 .hob1{
     background-image: url(img/montagne.jpg);
     background-size: cover;
@@ -35,8 +39,7 @@ h8{text-align: center; font-size: 1.2rem; color: white; margin-top: 8pc; width: 
     height: 200px;
 }
 .pf{
-    background-color: black;
-    background-image: url(img/fête.jpeg);
+    background-color: rgba(14, 111, 50, 0.638);
     background-size: auto;
     background-position: top;
     width: 100%;
