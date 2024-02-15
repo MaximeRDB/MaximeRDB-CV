@@ -10,13 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_02_15_115955) do
-  create_table "acceuils", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "devis", force: :cascade do |t|
+ActiveRecord::Schema[7.1].define(version: 2024_02_15_145935) do
+  create_table "estimates", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -26,7 +21,17 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_15_115955) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "galeries", force: :cascade do |t|
+  create_table "homes", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "knowledges", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "photos", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -36,12 +41,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_15_115955) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "qui_suis_jes", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "savoirs", force: :cascade do |t|
+  create_table "who_i_ams", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
