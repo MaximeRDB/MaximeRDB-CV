@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'qui_suis_jes/show'
   get 'savoirs/show'
   get 'devis/show'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
@@ -13,7 +14,7 @@ Rails.application.routes.draw do
   resource :galerie_photo, only: [:show]
   resource :portfolio, only: [:show]
   resource :qui_suis_jes, only: [:show]
-  resource :savoir_faire, only: [:show]
+  resource :savoirs, only: [:show]
   resource :devis, only: [:show]
   # Defines the root path route ("/")
   # root "posts#index"
