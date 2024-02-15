@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'portfolios/show'
   get 'galeries/show'
   get 'qui_suis_jes/show'
   get 'savoirs/show'
@@ -13,7 +14,7 @@ Rails.application.routes.draw do
 
   resource :experiences, only: [:show]
   resource :galeries, only: [:show]
-  resource :portfolio, only: [:show]
+  resource :portfolios, only: [:show]
   resource :qui_suis_jes, only: [:show]
   resource :savoirs, only: [:show]
   resource :devis, only: [:show]
