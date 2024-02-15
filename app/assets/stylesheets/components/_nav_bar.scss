@@ -1,0 +1,75 @@
+.summary{
+  background-color: black;
+}
+
+  .dm {
+    font-weight: bold;
+    padding: 0s;
+    color: white;
+    box-shadow:none;
+    cursor: pointer;
+    position: sticky;
+    padding-top: 20px;
+    padding-left: 20px;
+    }
+    .ul:hover{
+      margin-top: 2%;
+      -moz-transition: all .5s;
+      -webkit-transition: all .5s;
+      -o-transition: all .5s;
+      transition: all .5s;
+    }
+
+    details[open] {
+      padding: auto;
+    }
+
+    details[open] summary {
+      margin-bottom: 2%;
+    }
+
+.tête{
+  background-color: black;
+  height: 60px;
+}
+
+dl, ol, ul {
+  list-style: none;
+  position: absolute;
+  background-color: white;
+  border: solid;
+  margin-left: 1%;
+  width: 12%;
+  padding-bottom: 1%;
+}
+ul li a {
+margin-top: 1pc;
+padding: 0s;
+overflow: hidden;
+}
+ul li a { color: rgb(0, 0, 0);
+padding: 10px;
+text-decoration: none;
+line-height: 1;
+display: inline-block center;
+margin-left: 50;
+width: -webkit-max-content;
+margin-right: 80%;
+margin-bottom: 1%;
+text-align: -webkit-center;
+}
+ul li a:hover {
+  color: black;
+  border: solid;
+  border-radius: 4px;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s, ease;
+  text-decoration: none;
+}
+li a { float:left;
+text-align: center;
+margin-left: 1%;
+margin-right: 1%;
+}

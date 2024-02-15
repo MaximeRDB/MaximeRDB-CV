@@ -7,6 +7,11 @@ Rails.application.routes.draw do
 
   root to: "accueil#index"
 
+  resource :experiences_pro, only: [:show]
+  resource :galerie_photo, only: [:show]
+  resource :portfolio, only: [:show]
+  resource :qui_suis_je, only: [:show]
+  resource :savoir_faire, only: [:show]
   # Defines the root path route ("/")
   # root "posts#index"
 end

@@ -1,0 +1,2 @@
+class SavoirFaire < ApplicationRecord
+end

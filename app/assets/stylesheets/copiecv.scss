@@ -2,7 +2,6 @@ h1{ text-align: center; letter-spacing: 3px; margin-top: 8pc;font-size: 1.2rem;
     margin-left: auto;
     margin-right: auto;
     width:50%;}
-h2{text-align: center; font-size: 1.2rem;} 
 h8{text-align: center; font-size: 1.2rem; color: white; margin-top: 8pc; width: 50%;font-size: x-large;}
 
 .tout {text-align: center;}
@@ -50,81 +49,6 @@ h8{text-align: center; font-size: 1.2rem; color: white; margin-top: 8pc; width: 
     height: cover;
 }
 
-.img {
-    border-style: black;
-    width: 20% ; height: auto; border-radius: 200px;
-    margin-left: 0%;
-    position:center;
-    }
-
-    hr {
-        width: 30%;
-        border: 1px solid rgba(0, 0, 0, 0.691);
-    }
-    .dm {
-        font-weight: bold;
-        padding: 0s;
-        color: aliceblue;
-        box-shadow:none;
-        cursor: pointer;
-        width: auto;
-        position: sticky;
-        top: 2pc;
-        margin-left: 30%;
-        margin-right: 30%;
-        display: inline-block center;
-        border-radius: 100px;
-}
-.dm:hover{
-    transform: scale(1.5);
-    background-color:rgba(123, 6, 6, 0.793);
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-}
-        details[open] {
-            padding: auto;
-        }
-
-        details[open] summary {
-            margin-bottom: auto;
-            background: rgba(123, 6, 6, 0.793);
-        }
-
-
-section {color: rgb(251, 251, 251);}
-
-ul {list-style: none;}
-ul li a {
-margin-top: 3pc;
-padding: 0s;
-background-color: rgba(123, 6, 6, 0.802);
-overflow: hidden;
-}
-ul li a { color: black;
-    padding: 20px;
-text-decoration: none;
-block-size: 30%;
-line-height: 1;
-display: inline-block center;
-border-radius: 75px;
-margin-left: 50;
-margin-right: 50;
-width:20%;
-}
-ul li a:hover {
-    background-color: rgb(222, 187, 11);
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-}
-li a { float:left;
-text-align: center;
-margin-left: 1%;
-margin-right: 1%;
-}
 
 .tel{
     width :300px;
@@ -158,20 +82,6 @@ ul{align-content: center;
     box-shadow: 0 0 10px 0 rgba(123, 6, 6, 0.793);
     block-size: auto;
 }
-
-footer {
-    color: rgb(255, 255, 255);
-    height: auto;
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
-    background-size: auto;
-    background-color: rgba(123, 6, 6, 0.793);
-    border-radius: 100px ;
-}
-footer h2 {text-align: center;}
-
-
 
 .motiv {
     height: 900px;

@@ -1,0 +1,2 @@
+class ExperiencesPro < ApplicationRecord
+end
