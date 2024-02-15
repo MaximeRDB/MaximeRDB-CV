@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'savoirs/show'
   get 'devis/show'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -8,7 +9,7 @@ Rails.application.routes.draw do
 
   root to: "accueil#index"
 
-  resource :experiences_pro, only: [:show]
+  resource :experiences, only: [:show]
   resource :galerie_photo, only: [:show]
   resource :portfolio, only: [:show]
   resource :qui_suis_jes, only: [:show]
