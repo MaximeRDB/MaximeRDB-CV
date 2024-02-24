@@ -4,10 +4,12 @@
 // Define fonts for body and headers
 $body-font: "Raleway";
 $headers-font: "Nunito", "Helvetica", "sans-serif";
+
 * {
   font-family: "Raleway";
   box-sizing: border-box;
 }
+
 // To use a font file (.woff) uncomment following lines
 // @font-face {
 //   font-family: "Font Name";

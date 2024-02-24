@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   resource :experiences, only: [:show]
   resource :photos, only: [:show]
   resource :portfolios, only: [:show]
-  resource :how_i_ams, only: [:show]
+  resource :who_i_ams, only: [:show]
   resource :knowledges, only: [:show]
   resource :estimates, only: [:show]
   # Defines the root path route ("/")

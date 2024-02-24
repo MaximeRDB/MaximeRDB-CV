@@ -1,2 +1,2 @@
-class How_I_Am < ApplicationRecord
+class HowIAm < ApplicationRecord
 end

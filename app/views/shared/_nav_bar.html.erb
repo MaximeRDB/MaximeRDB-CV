@@ -1,16 +1,32 @@
-<div class="tête">
-  <nav>
-    <details>
-    <summary class="dm">Découvrez-moi</summary>
-      <ul>
-        <li> <%= link_to "Accueil", root_path %> </li>
-        <li> <%= link_to "Qui suis-je ?", who_i_ams_path %> </li>
-        <li> <%= link_to "Savoir faire", knowledges_path %> </li>
-        <li> <%= link_to "Expériences Pro", experiences_path %> </li>
-        <li> <%= link_to "Galerie Photos", photos_path %> </li>
-        <li> <%= link_to "Portfolio", portfolios_path %> </li>
-        <li> <%= link_to "Devis", estimates_path %> </li>
-      </ul>
-    </details>
-  </nav>
+<div class="bandeau">
+
+  <div class="raw">
+
+    <div class="">
+      <h1 class="title">ROLLINDE DE BEAUMONT MAXIME </h1>
+    </div>
+
+    <div class="logo_place">
+      <p><%= image_tag ("MaxPic.JPG"), class: "logo"%></p>
+    </div>
+
+    <div>
+      <nav>
+        <details>
+        <summary class="dm">More</summary>
+          <ul>
+            <li> <%= link_to "Home", root_path %> </li>
+            <li> <%= link_to "About", who_i_ams_path %> </li>
+            <li> <%= link_to "Knowledge", knowledges_path %> </li>
+            <li> <%= link_to "Resume", experiences_path %> </li>
+            <li> <%= link_to "Photos", photos_path %> </li>
+            <li> <%= link_to "Portfolio", portfolios_path %> </li>
+            <li> <%= link_to "Estimate", estimates_path %> </li>
+          </ul>
+        </details>
+      </nav>
+    </div>
+
+  </div>
+
 </div>
