@@ -1,16 +1,8 @@
 <div class="bandeau">
 
-  <div class="raw">
+  <div class="raw d-flex justify-content-between text-center py-4">
 
-    <div class="">
-      <h1 class="title">ROLLINDE DE BEAUMONT MAXIME </h1>
-    </div>
-
-    <div class="logo_place">
-      <p><%= image_tag ("MaxPic.JPG"), class: "logo"%></p>
-    </div>
-
-    <div>
+    <div class="col-4">
       <nav>
         <details>
         <summary class="dm">More</summary>
@@ -25,6 +17,14 @@
           </ul>
         </details>
       </nav>
+    </div>
+
+    <div class="col-4">
+      <h1 class="title"><%= link_to "ROLLINDE DE BEAUMONT MAXIME", root_path, class: "title" %> </h1>
+    </div>
+
+    <div class="col-4">
+      <p><%= image_tag ("MaxPic.JPG"), class: "logo"%></p>
     </div>
 
   </div>

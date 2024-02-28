@@ -9,9 +9,9 @@
     box-shadow:none;
     cursor: pointer;
     position: sticky;
-    margin-top: -43px;
     padding-left: 20px;
-    width: 8%;
+    width: 100%;
+    text-align: left;
     }
     .ul:hover{
       margin-top: 2%;
@@ -31,7 +31,7 @@
 
 .bandeau{
   background-color: black;
-  height: 4.5rem;
+  height: 5.5rem;
   max-width: 100%;
 }
 
@@ -83,10 +83,16 @@ margin-right: 1%;
   color: white;
   font-family: raleway;
   width: 100%;
+  text-decoration: none;
+}
+.title a:hover{
+  color: rgb(116, 1, 1);
+  transition: all 0.5s ease;
+  text-decoration: none;
 }
 
 .logo{
-  width: 3%;
+  width: 50px;
   border-radius: 8px;
 }
 
