@@ -33,7 +33,7 @@
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
-    margin-bottom: 100%;
+    margin-bottom: 70%;
     padding-top: 10%;
   }
 }
@@ -42,7 +42,7 @@
 @media (min-width: 576px) {
   .cards {
     grid-template-columns: 1fr;
-    margin-bottom: 100%;
+    margin-bottom: 75%;
   }
 }
 
@@ -50,7 +50,7 @@
 @media (min-width: 768px) {
   .cards {
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 10%;
+    margin-bottom: 0%;
   }
 }
 
@@ -58,7 +58,7 @@
 @media (min-width: 992px) {
   .cards {
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 10%;
+    margin-bottom: 0%;
   }
 }
 

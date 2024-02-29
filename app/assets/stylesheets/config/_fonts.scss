@@ -9,7 +9,9 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
   font-family: "Raleway";
   box-sizing: border-box;
 }
-
+.back_ground{
+  object-fit: cover;
+}
 // To use a font file (.woff) uncomment following lines
 // @font-face {
 //   font-family: "Font Name";

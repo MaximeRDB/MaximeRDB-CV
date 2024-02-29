@@ -42,7 +42,7 @@
 @media (min-width: 100px) and (max-width: 575px) {
   .cards_section {
     grid-template-columns: 1fr;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
     padding-top: 10%;
   }
 }
@@ -50,8 +50,8 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .cards_section {
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 30%;
+    grid-template-columns: 1fr;
+    margin-bottom: 10%;
     padding-top: 10%;
   }
 }
@@ -59,14 +59,14 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .cards_section {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .cards_section {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 

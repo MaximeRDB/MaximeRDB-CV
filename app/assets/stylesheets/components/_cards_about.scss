@@ -1,0 +1,48 @@
+.profil_about{
+  width: 100%;
+  height: 84%;
+  margin-top: 13%;
+  max-width: 400px;
+  min-width: 400px;
+  max-height: 380px;
+
+}
+.container_me{
+  background-color: rgb(254, 178, 79);
+  height: auto;
+  width: auto;
+  margin-top: 6%;
+  padding: 1%;
+  margin-left: 14%;
+  display: flex;
+  margin-right: 40%;
+  font-family: raleway;
+  min-width: 460px;
+  padding-top: 2%;
+}
+.title_about h1{
+  font-family: 'Courier New', monospace;
+}
+.text_about p{
+  font-family: 'Courier New', monospace;
+  padding-left: 8%;
+}
+.container_about{
+  margin-top: -3%;
+}
+
+.photo_about{
+  width: 30%;
+  position: fixed;
+  border: solid 4px color(srgb 0.994 0.6977 0.3081);
+  margin-left: 66%;
+}
+@media (max-width: 900px) {
+  .photo_about {
+    max-width: 100%;
+    position: sticky;
+    border: solid 4px color(srgb 0.994 0.6977 0.3081);
+    margin-left: 14%;
+    margin-top: 3%;
+  }
+}

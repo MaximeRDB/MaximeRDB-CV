@@ -1,57 +1,12 @@
-<div class="raw hello_world px-2 d-flex justify-content-between">
+<div class="hello_world" style="margin-bottom: 10%;">
 
-  <div class="col-6 container_me row px-2 mx-3 flex justify-content-evenly text-center", style="width: 100%;">
-
-    <div class="col-6 pt-2">
-        <h1>
-          Bonjour <br>
-          Je m'appelle <br>
-          Maxime Rollinde de Beaumont
-        </h1>
-    </div>
-
-    <div class="col-6 pt-3">
-      <p>
-        Motivé, Studieux, Autonome et aime le travail en équipe.
-        Avec de bonnes connaissances sur le travail d’entreprise, je sais
-        m’adapter à des situations de stress et suis à l’écoute.
-        Je suis capable d’innover, proposer des idées et amener une
-        bonne énergie.
-      </p>
-    </div>
-
+  <div>
+    <%= image_tag "MaxPic.JPG", class: "photo_about"%>
   </div>
 
-  <div class="col-6">
-    <%= image_tag "montagne.jpg", class: "profil_about" %>
+  <div class="container_about">
+    <%= render "shared/cards_about" %>
   </div>
 
-</div>
 
-
-
-
-
-
-    <div class="container_me">
-        <h1>
-          Intérêt
-        </h1>
-        <p>
-          J'aime beaucoup la musique et notament en faire : <br>
-          Je fait du piano et de la guitare en auto-didacte.
-        </p> <br>
-      </div>
-
-    <div class="container_me">
-      <h1>VOYAGES</h1>
-      <p> ÉCLAIREURS DE FRANCE / Branche du scoutisme laïc (DEPUIS 2001), DIVERS SPORTS<br></p>
-      <p>CAMBODGE, ESPAGNE, COSTA RICA,
-        PANAMA, COLOMBIE, PORTUGUAL,
-        GRÈCE, AUTRICHE, IRLANDE,
-        POLOGNE, ALLEMAGNE, TURQUIE,
-        ITALIE, CHINE, AUTRALIE, PAYS BAS,
-        ÉTATS-UNIS, ANGLETERRE.
-      </p>
-    </div>
 </div>
