@@ -1,3 +1,3 @@
-class Acceuil < ApplicationRecord
-  
+class Index < ApplicationRecord
+
 end
