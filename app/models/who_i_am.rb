@@ -1,2 +1,2 @@
-class HowIAm < ApplicationRecord
+class WhoIAm < ApplicationRecord
 end
